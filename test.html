@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Горизонтальная прокрутка</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .scroll-container {
+            display: flex;
+            /* Располагает элементы в строку */
+            overflow-x: auto;
+            /* Включает горизонтальную прокрутку */
+            white-space: nowrap;
+            /* Отключает перенос строк */
+            border: 2px solid #ccc;
+            /* Добавляет рамку для контейнера */
+            padding: 10px;
+            /* Добавляет отступы внутри контейнера */
+        }
+
+        .item {
+            min-width: 200px;
+            /* Минимальная ширина элемента */
+            margin: 10px;
+            /* Отступы между элементами */
+            padding: 20px;
+            /* Внутренние отступы элемента */
+            background-color: lightblue;
+            /* Цвет фона элемента */
+            border: 1px solid #007bff;
+            /* Рамка для элемента */
+            border-radius: 5px;
+            /* Закругление углов элемента */
+            display: inline-block;
+            /* Позволяет элементам выставляться в линию */
+            text-align: center;
+            /* Выравнивание текста по центру */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="scroll-container">
+        <div class="item">Элемент 1</div>
+        <div class="item">Элемент 2</div>
+        <div class="item">Элемент 3</div>
+        <div class="item">Элемент 4</div>
+        <div class="item">Элемент 5</div>
+        <div class="item">Элемент 6</div>
+        <div class="item">Элемент 7</div>
+        <div class="item">Элемент 8</div>
+    </div>
+
+</body>
