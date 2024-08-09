@@ -256,7 +256,7 @@ body {
     font-size: 16px;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 400px) {
     .faceDiv {
         background-image: url('Frame\ 42.jpg');
         background-repeat: no-repeat;
@@ -389,5 +389,80 @@ body {
         overflow-x: auto;
         /* overflow-y:auto */
         /* white-space: nowrap; */
+    }
+
+    .ourServices {
+        margin-top: 0;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 36px;
+    }
+
+    .aboutServices {
+        margin: auto;
+        /* text-align: center; */
+        font-family: sans-serif;
+        font-size: 16px;
+        max-width: 280px;
+        line-height: 20px;
+    }
+
+    .service {
+        max-width: 300px;
+        font-family: sans-serif;
+        margin: auto;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 10px;
+        display: flex;
+    }
+
+    .dot {
+        margin-right: 10px;
+        font-size: 18px;
+    }
+
+    .string {
+        font-family: sans-serif;
+        font-size: 14px;
+    }
+
+    .servicesDiv {
+        margin-top: 0;
+        background-color: #ebebeb;
+        padding-bottom: 20px;
+    }
+
+    .contacts {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .whyContacts {
+        font-family: sans-serif;
+        text-align: center;
+        font-size: 22px;
+        max-width: 320px;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .phone {
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 14px;
+        margin-bottom: 20px;
+        max-width: 590px;
+        max-width: 230px
+    }
+    
+    .address {
+        margin-top: 60px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 14px;
+        margin-bottom: 90px;
     }
 }
